@@ -1,4 +1,4 @@
 # ps-test-repo-1
 Project Simple test repo
 
-See [hello.html](hello.html) for the greeting page.
+See [newsletter.html](newsletter.html) for the newsletter form.
