@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"><title>Home</title>
+  <style>.banner { background: #ffd; padding: 8px; }</style>
+</head>
+<body>
+  <div class="banner">Welcome to our site!</div>
+  <h1>Home</h1>
+  <script>
+    const name = prompt("Your name?");
+    if (name) {
+      document.querySelector(".banner").textContent = "Welcome, " + name + "!";
+    }
+  </script>
+</body>
+</html>
