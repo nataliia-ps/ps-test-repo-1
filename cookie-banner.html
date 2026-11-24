@@ -1,5 +1,5 @@
-<div id="cookie-banner" class="cookie-banner">
+<div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Cookie consent">
   <p>We use cookies to improve your experience.</p>
-  <button data-consent="accept">Accept</button>
-  <button data-consent="reject">Reject</button>
+  <button data-consent="accept" onclick="this.parentElement.remove()">Accept</button>
+  <button data-consent="reject" onclick="this.parentElement.remove()">Reject</button>
 </div>
